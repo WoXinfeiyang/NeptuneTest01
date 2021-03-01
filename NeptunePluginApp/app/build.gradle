@@ -1,6 +1,14 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.qiyi.neptune.plugin'
+}
+
+neptune {
+    pluginMode = true
+//    packageId = 0x30
+    hostPackageName = "com.fxj.NeptuneHostApp"
+    hostDependencies = ""
 }
 
 android {
@@ -11,8 +19,8 @@ android {
         applicationId "com.fxj.NeptunePluginApp"
         minSdkVersion 16
         targetSdkVersion 30
-        versionCode 1001000
-        versionName "1.0.0.1000"
+        versionCode 1001001
+        versionName "1.0.0.1001"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
