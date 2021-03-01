@@ -1,6 +1,12 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.qiyi.neptune.plugin'
+}
+
+neptune {
+    pluginMode = true
+//    packageId = 0x30
 }
 
 android {
