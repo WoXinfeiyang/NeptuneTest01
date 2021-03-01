@@ -132,7 +132,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btn03 -> {
                 Log.d(TAG, "启动插件按钮被点击了!")
-                launchPlugin(PLUGIN_PKG)
+                launchPlugin(PLUGIN_PKG,"com.fxj.NeptunePluginApp.MainActivity")
             }
         }
     }
